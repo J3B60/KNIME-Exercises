@@ -1,0 +1,30 @@
+
+{
+    "type": "object",
+    "properties": {
+        "string-input-7": {
+            "type": "string",
+            "default": "Cluster_1",
+            "description": "Variable used for Row Filter to get the desiered Cluster Number",
+            "example": "Cluster_1"
+        },
+        "value-selection-15:11": {
+            "type": "object",
+            "properties": {
+                "column": {
+                    "type": "string",
+                    "default": "Cluster Membership"
+                },
+                "value": {
+                    "type": "string",
+                    "default": "Cluster_1"
+                }
+            },
+            "description": "Select the Cluster Membership from list of avialable values from the table",
+            "example": {
+                "column": "Cluster Membership",
+                "value": "Cluster_1"
+            }
+        }
+    }
+}
