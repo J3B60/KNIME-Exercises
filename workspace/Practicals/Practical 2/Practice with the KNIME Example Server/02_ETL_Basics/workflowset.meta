@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">rosy</met:element>
+  <met:element form="date" name="Creation Date">31/0/2017/17:56:49 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Example Workflow for ETL Basics Operations
+
+On  sales2008-2011.csv data set a number of ETL operations are performed. Besides showing what ETL features are, the goal of this workflow is to move from a series of contracts with different customers in different countries to a one-row summary description for each one of the customers. The one-row description includes: the customer unique ID; the total amount of money payed by the customer to the company;  the countries the customer has been active in; the date of the first contract (this is always useful to estimate the customer loyalty); and the number of days between the first and the last purchase, that is the number of days the customer has been with the company. At the end, each one-row customer summary information will be joined together with each contract data row from the original file and write the resulting table to a CSV file in a "data" folder located in the workflow folder.
+
+TAG: ETL, KNIME, data manipulation</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2019-01-27 13:17:23 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2017-02-10 11:43:03 +0100</met:element>
+</met:KNIMEMetaInfo>
